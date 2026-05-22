@@ -1,0 +1,742 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Humberto Moyano | Ebanistería Premium y Arquitectura Biodinámica</title>
+    <meta name="description"
+        content="Taller de alta gama de creación en madera. Mobiliario exclusivo y construcciones biodinámicas y ecomigables de gran legado para campo, finca y ciudad.">
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Cinzel:wght@400;600;700;900&family=Outfit:wght@200;300;400;500;600;700&display=swap"
+        rel="stylesheet">
+    <!-- Estilos -->
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <!-- Fondo dinámico con grano sutil y gradientes de lujo -->
+    <div class="bg-overlay"></div>
+    <div class="grain-overlay"></div>
+
+    <!-- Navegación Premium -->
+    <nav class="nav-container">
+        <div class="nav-logo">
+            <span class="logo-brand">MOYANO</span>
+            <span class="logo-sub">TALLER DE MADERA</span>
+        </div>
+        <ul class="nav-links">
+            <li><a href="#inicio" class="active">Inicio</a></li>
+            <li><a href="#filosofia">El Valor</a></li>
+            <li><a href="#servicios">Servicios</a></li>
+            <li><a href="#taller">El Taller</a></li>
+            <li><a href="#portafolio">Creaciones</a></li>
+            <li><a href="#postular" class="btn-nav">Postular Proyecto</a></li>
+        </ul>
+        <div class="nav-toggle" id="navToggle">
+            <span></span>
+            <span></span>
+            <span></span>
+        </div>
+    </nav>
+
+    <!-- Secciones -->
+    <main>
+
+        <!-- Hero Section -->
+        <section id="inicio" class="hero-section">
+            <div class="hero-bg-carousel">
+                <!-- Se usarán imágenes del refer como fondo del hero mediante CSS -->
+                <div class="hero-slide active"
+                    style="background-image: linear-gradient(to bottom, rgba(14, 20, 16, 0.7), rgba(14, 20, 16, 0.95)), url('../refer/il_1140xN.6940940929_r2lv.jpg');">
+                </div>
+                <div class="hero-slide"
+                    style="background-image: linear-gradient(to bottom, rgba(14, 20, 16, 0.7), rgba(14, 20, 16, 0.95)), url('../refer/il_1140xN.6892965198_d61f.jpg');">
+                </div>
+                <div class="hero-slide"
+                    style="background-image: linear-gradient(to bottom, rgba(14, 20, 16, 0.7), rgba(14, 20, 16, 0.95)), url('../refer/il_1140xN.6940940927_1ind.jpg');">
+                </div>
+            </div>
+            <div class="container hero-content animate-on-load">
+                <span class="hero-tag">EXCLUSIVIDAD • SOSTENIBILIDAD • GARANTÍA</span>
+                <h1 class="hero-title">El Legado de la <br><span class="text-gradient">Madera Noble</span></h1>
+                <p class="hero-subtitle">
+                    Creaciones atemporales que trascienden generaciones. Desde mobiliario exclusivo para el hogar, la
+                    finca y la ciudad, hasta majestuosas obras de arquitectura biodinámica y ecológica.
+                </p>
+                <div class="hero-actions">
+                    <a href="#postular" class="btn btn-primary">Iniciar Postulación de Proyecto</a>
+                    <a href="#portafolio" class="btn btn-secondary">Ver Portafolio</a>
+                </div>
+            </div>
+            <div class="hero-scroll-indicator">
+                <span>Desplazar</span>
+                <div class="mouse-icon">
+                    <div class="wheel"></div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Filosofía y Garantía -->
+        <section id="filosofia" class="filosofia-section section-padding">
+            <div class="container">
+                <div class="section-header text-center reveal">
+                    <span class="section-tag">Nuestra Filosofía</span>
+                    <h2 class="section-title">¿Por qué un Proyecto de Madera de Alto Valor es una Inversión, no un
+                        Gasto?</h2>
+                    <p class="section-lead">
+                        La verdadera calidad no se deprecia; se convierte en patrimonio. Trabajamos bajo principios de
+                        bioconstrucción y ecología consciente, utilizando madera sólida genuina en lugar de derivados
+                        industriales.
+                    </p>
+                </div>
+
+                <div class="filosofia-grid">
+                    <div class="filosofia-card reveal delay-1">
+                        <div class="card-icon">
+                            <svg viewBox="0 0 24 24" width="32" height="32" stroke="currentColor" stroke-width="1.5"
+                                fill="none" stroke-linecap="round" stroke-linejoin="round">
+                                <path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"></path>
+                            </svg>
+                        </div>
+                        <h3>Madera Maciza y Natural</h3>
+                        <p>Seleccionamos maderas nobles de veta continua por su densidad y durabilidad natural,
+                            descartando sustitutos sintéticos (MDF, aglomerados o enchapados). Tratamientos orgánicos
+                            que aseguran una resistencia duradera al paso del tiempo.</p>
+                    </div>
+
+                    <div class="filosofia-card reveal delay-2">
+                        <div class="card-icon">
+                            <svg viewBox="0 0 24 24" width="32" height="32" stroke="currentColor" stroke-width="1.5"
+                                fill="none" stroke-linecap="round" stroke-linejoin="round">
+                                <path d="M12 2v20M17 5H9.5a3.5 3.5 0 0 0 0 7h5a3.5 3.5 0 0 1 0 7H6"></path>
+                            </svg>
+                        </div>
+                        <h3>Inversión de Alto Retorno</h3>
+                        <p>Cada obra incrementa significativamente el valor intrínseco de su propiedad. Huyendo de la
+                            cultura de lo desechable, creamos piezas únicas con carácter y apreciación estética
+                            garantizada.</p>
+                    </div>
+
+                    <div class="filosofia-card reveal delay-3">
+                        <div class="card-icon">
+                            <svg viewBox="0 0 24 24" width="32" height="32" stroke="currentColor" stroke-width="1.5"
+                                fill="none" stroke-linecap="round" stroke-linejoin="round">
+                                <path d="M12 2L2 7l10 5 10-5-10-5zM2 17l10 5 10-5M2 12l10 5 10-5"></path>
+                            </svg>
+                        </div>
+                        <h3>Arquitectura Biodinámica</h3>
+                        <p>Estructuras vivas diseñadas en armonía con el entorno geobiológico, optimizando el flujo
+                            térmico, el bienestar y la salud, utilizando exclusivamente aglutinantes y aceites naturales
+                            ecológicos.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Tres Pilares de Servicio -->
+        <section id="servicios" class="servicios-section section-padding">
+            <div class="container">
+                <div class="section-header text-center reveal">
+                    <span class="section-tag">Lo Que Creamos</span>
+                    <h2 class="section-title">El Arte de Dar Forma a tus Ideas</h2>
+                    <p class="section-lead">Desarrollamos soluciones personalizadas adaptadas a la geografía, el uso y
+                        las demandas del cliente más exigente.</p>
+                </div>
+
+                <div class="servicios-container">
+                    <!-- Servicio 1: Mobiliario -->
+                    <div class="servicio-item reveal">
+                        <div class="servicio-img-wrapper">
+                            <img src="../refer/il_1140xN.6892965198_d61f.jpg" alt="Mobiliario Premium"
+                                class="servicio-img">
+                            <div class="servicio-badge">Hogar, Campo y Ciudad</div>
+                        </div>
+                        <div class="servicio-info">
+                            <h3 class="servicio-title">Mobiliario de Autor a Medida</h3>
+                            <p class="servicio-text">
+                                Creamos mesas de comedor monumentales, bibliotecas empotradas, barras de cocina y
+                                mobiliario exterior premium. Diseñados con ensambles artesanales tradicionales, sin
+                                tornillería visible, logrando piezas robustas con acabados sedosos mediante ceras
+                                orgánicas y aceites naturales.
+                            </p>
+                            <ul class="servicio-features">
+                                <li>Madera sólida seleccionada de veta continua.</li>
+                                <li>Diseños a juego con el interiorismo moderno o rústico.</li>
+                                <li>Acabados libres de toxinas y compuestos químicos.</li>
+                            </ul>
+                        </div>
+                    </div>
+
+                    <!-- Servicio 2: Bioconstrucción -->
+                    <div class="servicio-item reversed reveal">
+                        <div class="servicio-img-wrapper">
+                            <img src="../refer/il_1140xN.6940940929_r2lv.jpg" alt="Construcción Biodinámica"
+                                class="servicio-img">
+                            <div class="servicio-badge">Bioconstrucción</div>
+                        </div>
+                        <div class="servicio-info">
+                            <h3 class="servicio-title">Estructuras y Casas Biodinámicas</h3>
+                            <p class="servicio-text">
+                                Planificación e ingeniería en madera para edificaciones ecológicas y de bajo impacto
+                                ambiental. Diseñamos estructuras que respiran, optimizando el confort acústico y térmico
+                                de forma pasiva, respetando la geobiología local para crear espacios saludables y de
+                                gran aliento.
+                            </p>
+                            <ul class="servicio-features">
+                                <li>Estructuras autosoportadas y entramados de madera pesada.</li>
+                                <li>Aislamientos de fibras naturales biocompatibles.</li>
+                                <li>Cero huella de carbono y máxima eficiencia energética.</li>
+                            </ul>
+                        </div>
+                    </div>
+
+                    <!-- Servicio 3: Campo y Fincas -->
+                    <div class="servicio-item reveal">
+                        <div class="servicio-img-wrapper">
+                            <img src="../refer/il_1140xN.6940940927_1ind.jpg" alt="Proyectos para Fincas"
+                                class="servicio-img">
+                            <div class="servicio-badge">Fincas y Campo</div>
+                        </div>
+                        <div class="servicio-info">
+                            <h3 class="servicio-title">Obras y Adecuaciones para Fincas</h3>
+                            <p class="servicio-text">
+                                Diseñamos e instalamos pérgolas monumentales, establos premium, cubiertas, terrazas
+                                voladas y portones rústicos reforzados de alta gama. Proyectos pensados para fundirse
+                                con el paisaje campestre y resistir condiciones climáticas extremas con gracia.
+                            </p>
+                            <ul class="servicio-features">
+                                <li>Madera tratada biológicamente contra la intemperie.</li>
+                                <li>Herrajes forjados a mano de alta resistencia estructural.</li>
+                                <li>Diseños majestuosos que embellecen el paisaje exterior.</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Detrás del Taller: Herramientas y Garantía -->
+        <section id="taller" class="taller-section section-padding">
+            <div class="container">
+                <div class="taller-wrapper reveal">
+                    <div class="taller-content">
+                        <span class="section-tag">El Arte del Taller</span>
+                        <h2 class="section-title">El Equilibrio entre el Alma y la Precisión</h2>
+                        <p class="taller-intro">
+                            Nuestra maestría se sustenta en la perfecta armonía entre las técnicas ancestrales y la
+                            tecnología moderna. Disponemos de un equipamiento especializado de primer nivel para abordar
+                            proyectos de cualquier complejidad con acabados impecables.
+                        </p>
+
+                        <div class="tools-split">
+                            <div class="tool-column">
+                                <div class="tool-header">
+                                    <span class="tool-title-icon">⚡</span>
+                                    <h4>Power Tools (Precisión Milimétrica)</h4>
+                                </div>
+                                <p>Utilizamos herramientas eléctricas de última generación (sierras de banco calibradas
+                                    por láser, ruteadoras de alta potencia, cepilladoras de espesor industriales) para
+                                    lograr cortes estructurales impecables, ensambles de ajuste perfecto y una solidez
+                                    mecánica insuperable.</p>
+                            </div>
+                            <div class="tool-column">
+                                <div class="tool-header">
+                                    <span class="tool-title-icon">🪓</span>
+                                    <h4>Hand Tools (El Alma del Artesano)</h4>
+                                </div>
+                                <p>El carácter final de cada obra se esculpe a mano. Empleamos formones de aleación
+                                    japonesa, cepillos manuales de bronce, gubias tradicionales y técnicas de
+                                    ebanistería clásica para refinar las texturas, pulir los cantos y dar vida a la
+                                    madera respetando su veta original.</p>
+                            </div>
+                        </div>
+
+                        <div class="taller-stats">
+                            <div class="stat-item">
+                                <span class="stat-number">100%</span>
+                                <span class="stat-label">Material Garantizado</span>
+                            </div>
+                            <div class="stat-item">
+                                <span class="stat-number">0%</span>
+                                <span class="stat-label">Compuestos Tóxicos</span>
+                            </div>
+                            <div class="stat-item">
+                                <span class="stat-number">50+ Años</span>
+                                <span class="stat-label">Vida Útil Estructural</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="taller-gallery">
+                        <div class="taller-img-grid">
+                            <img src="../refer/il_1140xN.6892965206_ofaq.jpg" alt="Detalle de Ensamble"
+                                class="taller-img taller-img-1">
+                            <img src="../refer/il_1140xN.6940940925_t9zq.jpg" alt="Ebanistería Tradicional"
+                                class="taller-img taller-img-2">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Portafolio Categorizado -->
+        <section id="portafolio" class="portafolio-section section-padding">
+            <div class="container">
+                <div class="section-header text-center reveal">
+                    <span class="section-tag">Galería de Obras</span>
+                    <h2 class="section-title">Nuestras Creaciones</h2>
+                    <p class="section-lead">Una muestra de proyectos realizados que expresan la solidez, el diseño y la
+                        versatilidad de la madera noble.</p>
+                </div>
+
+                <!-- Filtros del Portafolio -->
+                <div class="portfolio-filters reveal">
+                    <button class="filter-btn active" data-filter="todos">Todos</button>
+                    <button class="filter-btn" data-filter="mobiliario">Mobiliario</button>
+                    <button class="filter-btn" data-filter="estructuras">Estructuras</button>
+                    <button class="filter-btn" data-filter="fincas">Fincas & Campo</button>
+                </div>
+
+                <!-- Grid de Proyectos -->
+                <div class="portfolio-grid reveal">
+
+                    <!-- Proyecto 1: Mobiliario -->
+                    <div class="portfolio-item show" data-category="mobiliario" data-wood="Roble Macizo"
+                        data-finish="Cera de Abeja Orgánica" data-tools="Hand Tools y Sierras de Precisión"
+                        data-warranty="Estabilidad Generacional">
+                        <div class="portfolio-img-container">
+                            <img src="../refer/il_1140xN.6892965198_d61f.jpg" alt="Mesa de Comedor Premium"
+                                class="portfolio-img">
+                            <div class="portfolio-overlay">
+                                <h3>Mesa de Comedor Maciza</h3>
+                                <p>Mobiliario • Roble Noble</p>
+                                <span class="btn-view-project">Explorar Detalles</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Proyecto 2: Campo -->
+                    <div class="portfolio-item show" data-category="fincas" data-wood="Teca y Cedro Rústico"
+                        data-finish="Aceite de Linaza Ecológico" data-tools="Ensambles Manuales y Ruteadora Industrial"
+                        data-warranty="Gran Resistencia Estructural">
+                        <div class="portfolio-img-container">
+                            <img src="../refer/il_1140xN.6892965204_lexh.jpg" alt="Estructura Rústica de Campo"
+                                class="portfolio-img">
+                            <div class="portfolio-overlay">
+                                <h3>Pórtico Estructural Rústico</h3>
+                                <p>Fincas & Campo • Teca & Cedro</p>
+                                <span class="btn-view-project">Explorar Detalles</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Proyecto 3: Mobiliario -->
+                    <div class="portfolio-item show" data-category="mobiliario" data-wood="Nogal Negro"
+                        data-finish="Aceite de Tung Tradicional" data-tools="Cofre de Formones Japoneses"
+                        data-warranty="Estabilidad Generacional">
+                        <div class="portfolio-img-container">
+                            <img src="../refer/il_1140xN.6892965206_ofaq.jpg" alt="Detalle de Ensamble de Autor"
+                                class="portfolio-img">
+                            <div class="portfolio-overlay">
+                                <h3>Ensamble de Ebanistería Tradicional</h3>
+                                <p>Mobiliario • Nogal Negro</p>
+                                <span class="btn-view-project">Explorar Detalles</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Proyecto 4: Mobiliario -->
+                    <div class="portfolio-item show" data-category="mobiliario" data-wood="Cerezo Silvestre"
+                        data-finish="Laca Natural de Goma Laca" data-tools="Cepillos Manuales y Lijadora de Banda"
+                        data-warranty="Estabilidad Dimensional Prolongada">
+                        <div class="portfolio-img-container">
+                            <img src="../refer/il_1140xN.6940940477_hkdu.jpg" alt="Mesa Auxiliar Escultural"
+                                class="portfolio-img">
+                            <div class="portfolio-overlay">
+                                <h3>Mesa Auxiliar de Diseño Escultural</h3>
+                                <p>Mobiliario • Cerezo Silvestre</p>
+                                <span class="btn-view-project">Explorar Detalles</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Proyecto 5: Mobiliario -->
+                    <div class="portfolio-item show" data-category="mobiliario" data-wood="Roble Blanco"
+                        data-finish="Aceites Minerales Grado Alimenticio"
+                        data-tools="Ingletadora de Precisión y Formón de Mano" data-warranty="Estabilidad Generacional">
+                        <div class="portfolio-img-container">
+                            <img src="../refer/il_1140xN.6940940923_q6cg.jpg" alt="Bloque de Cocina de Madera Fina"
+                                class="portfolio-img">
+                            <div class="portfolio-overlay">
+                                <h3>Bloque de Madera para Cocinas Gourmet</h3>
+                                <p>Mobiliario • Roble Blanco</p>
+                                <span class="btn-view-project">Explorar Detalles</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Proyecto 6: Mobiliario -->
+                    <div class="portfolio-item show" data-category="mobiliario" data-wood="Nogal Macizo"
+                        data-finish="Aceites de Tung Naturales" data-tools="Gubias de Talla y Ruteadora"
+                        data-warranty="Estabilidad Generacional">
+                        <div class="portfolio-img-container">
+                            <img src="../refer/il_1140xN.6940940925_t9zq.jpg" alt="Junta de Madera y Detalle Artesanal"
+                                class="portfolio-img">
+                            <div class="portfolio-overlay">
+                                <h3>Detalle de Junta en Cola de Milano</h3>
+                                <p>Mobiliario • Nogal Macizo</p>
+                                <span class="btn-view-project">Explorar Detalles</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Proyecto 7: Fincas -->
+                    <div class="portfolio-item show" data-category="fincas"
+                        data-wood="Eucalipto Tratado y Pino Silvestre" data-finish="Protector Biodinámico Base Agua"
+                        data-tools="Motosierra de Precisión y Clavadora Neumática"
+                        data-warranty="Alta Resistencia a la Intemperie">
+                        <div class="portfolio-img-container">
+                            <img src="../refer/il_1140xN.6940940927_1ind.jpg" alt="Cercas y Terrazas de Campo"
+                                class="portfolio-img">
+                            <div class="portfolio-overlay">
+                                <h3>Estructura y Terraza de Finca</h3>
+                                <p>Fincas & Campo • Eucalipto Noble</p>
+                                <span class="btn-view-project">Explorar Detalles</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Proyecto 8: Estructuras -->
+                    <div class="portfolio-item show" data-category="estructuras" data-wood="Abeto Rojo y Alerce"
+                        data-finish="Resina Natural Impregnante" data-tools="Ingeniería CNC y Ensambles Tradicionales"
+                        data-warranty="Legado Estructural Sólido">
+                        <div class="portfolio-img-container">
+                            <img src="../refer/il_1140xN.6940940929_r2lv.jpg" alt="Entramado de Techo Biodinámico"
+                                class="portfolio-img">
+                            <div class="portfolio-overlay">
+                                <h3>Entramado para Techo Biodinámico</h3>
+                                <p>Estructuras • Abeto & Alerce</p>
+                                <span class="btn-view-project">Explorar Detalles</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Proyecto 9: Estructuras -->
+                    <div class="portfolio-item show" data-category="estructuras" data-wood="Alerce del Norte"
+                        data-finish="Aceites Impregnantes Sin Solvente"
+                        data-tools="Ingeniería Estructural y Herramientas Manuales"
+                        data-warranty="Gran Solidez Estructural">
+                        <div class="portfolio-img-container">
+                            <img src="../refer/il_1140xN.6940940931_n5h3.jpg" alt="Cúpula de Estructura de Madera"
+                                class="portfolio-img">
+                            <div class="portfolio-overlay">
+                                <h3>Viguería Monumental de Soporte</h3>
+                                <p>Estructuras • Alerce y Pino</p>
+                                <span class="btn-view-project">Explorar Detalles</span>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </section>
+
+        <!-- Formulario de Calificación de Clientes (Filtro Exclusivo) -->
+        <section id="postular" class="postular-section section-padding">
+            <div class="container">
+                <div class="postular-wrapper reveal">
+                    <div class="postular-header text-center">
+                        <span class="section-tag">Admisión Exclusiva</span>
+                        <h2 class="section-title">Postulación de Proyecto Personalizado</h2>
+                        <p class="postular-lead">
+                            Debido al nivel de detalle artesanal y a nuestro compromiso de utilizar exclusivamente
+                            maderas macizas 100% naturales, tomamos un número limitado de proyectos por año. Cuéntanos
+                            sobre tu visión para calificar la viabilidad técnica y de diseño en nuestro taller.
+                        </p>
+                    </div>
+
+                    <!-- Formulario Multi-pasos interactivo -->
+                    <form id="qualifyingForm" class="qualifying-form">
+
+                        <!-- Progreso -->
+                        <div class="form-progress">
+                            <div class="progress-bar" id="progressBar"></div>
+                            <div class="progress-step active" data-step="1"><span>1</span><label>Proyecto</label></div>
+                            <div class="progress-step" data-step="2"><span>2</span><label>Filosofía</label></div>
+                            <div class="progress-step" data-step="3"><span>3</span><label>Inversión</label></div>
+                            <div class="progress-step" data-step="4"><span>4</span><label>Contacto</label></div>
+                        </div>
+
+                        <!-- Paso 1: Tipo de Proyecto -->
+                        <div class="form-step active" data-step="1">
+                            <h3 class="step-title">¿Qué tipo de creación en madera desea desarrollar?</h3>
+                            <div class="options-grid">
+                                <label class="option-card">
+                                    <input type="radio" name="project_type" value="mobiliario" checked>
+                                    <span class="option-content">
+                                        <span class="option-icon">🪑</span>
+                                        <span class="option-title">Mobiliario de Autor a Medida</span>
+                                        <span class="option-desc">Mesas monumentales, gabinetes o piezas artísticas
+                                            exclusivas para hogar o ciudad.</span>
+                                    </span>
+                                </label>
+
+                                <label class="option-card">
+                                    <input type="radio" name="project_type" value="biodinamica">
+                                    <span class="option-content">
+                                        <span class="option-icon">🏡</span>
+                                        <span class="option-title">Estructura Biodinámica / Bioconstrucción</span>
+                                        <span class="option-desc">Casas de madera ecológicas, techados estructurales
+                                            vivos o cabañas de gran aliento.</span>
+                                    </span>
+                                </label>
+
+                                <label class="option-card">
+                                    <input type="radio" name="project_type" value="fincas">
+                                    <span class="option-content">
+                                        <span class="option-icon">🌳</span>
+                                        <span class="option-title">Proyecto Integral para Fincas / Campo</span>
+                                        <span class="option-desc">Terrazas monumentales, pérgolas rústicas, portones de
+                                            alta gama y adecuaciones exteriores.</span>
+                                    </span>
+                                </label>
+                            </div>
+                            <div class="step-buttons">
+                                <button type="button" class="btn btn-primary next-step">Siguiente Paso</button>
+                            </div>
+                        </div>
+
+                        <!-- Paso 2: Filosofía de Valor (Filtro sutil de descarte) -->
+                        <div class="form-step" data-step="2">
+                            <h3 class="step-title">¿Cuáles son los factores más importantes para su obra?</h3>
+                            <p class="step-subtitle">Ayúdenos a comprender sus prioridades de diseño y longevidad.</p>
+
+                            <div class="options-grid vertical">
+                                <label class="option-card horizontal">
+                                    <input type="radio" name="philosophy" value="premium" checked>
+                                    <span class="option-content">
+                                        <span class="option-check"></span>
+                                        <div>
+                                            <span class="option-title">Maderas 100% macizas, naturales y diseño de
+                                                autor</span>
+                                            </br>
+                                            <span class="option-desc">Valoro el uso de madera sólida seleccionada,
+                                                rechazando sustitutos industriales (MDF, aglomerados o melaminas).
+                                                Priorizo acabados ecológicos libres de tóxicos y durabilidad
+                                                patrimonial.</span>
+                                        </div>
+                                    </span>
+                                </label>
+
+                                <label class="option-card horizontal">
+                                    <input type="radio" name="philosophy" value="lowcost">
+                                    <span class="option-content">
+                                        <span class="option-check"></span>
+                                        <div>
+                                            <span class="option-title">Un trabajo rápido utilizando maderas comerciales
+                                                y económicas</span>
+                                            <span class="option-desc">Busco principalmente la opción de menor
+                                                presupuesto disponible en el mercado convencional.</span>
+                                        </div>
+                                    </span>
+                                </label>
+                            </div>
+
+                            <div class="step-buttons">
+                                <button type="button" class="btn btn-secondary prev-step">Atrás</button>
+                                <button type="button" class="btn btn-primary next-step"
+                                    id="btnCheckPhilosophy">Siguiente Paso</button>
+                            </div>
+                        </div>
+
+                        <!-- Paso 3: Inversión Estimada -->
+                        <div class="form-step" data-step="3">
+                            <h3 class="step-title">¿Cuál es el presupuesto que planea destinar a esta inversión?</h3>
+                            <p class="step-subtitle">Esto nos ayuda a sugerir la madera, el grosor y el grado de detalle
+                                constructivo ideal.</p>
+
+                            <div class="options-grid" id="budgetGrid">
+                                <!-- Se modificará dinámicamente con JS según el tipo de proyecto para ser coherentes con el rango de precios de alta gama -->
+                            </div>
+
+                            <div class="step-buttons">
+                                <button type="button" class="btn btn-secondary prev-step">Atrás</button>
+                                <button type="button" class="btn btn-primary next-step">Siguiente Paso</button>
+                            </div>
+                        </div>
+
+                        <!-- Paso 4: Información de Contacto -->
+                        <div class="form-step" data-step="4">
+                            <h3 class="step-title">Sus Datos de Contacto Exclusivo</h3>
+                            <p class="step-subtitle">Un especialista técnico de nuestro taller se comunicará
+                                personalmente para analizar la viabilidad de su postulación.</p>
+
+                            <div class="contact-form-grid">
+                                <div class="form-group">
+                                    <label for="clientName">Nombre Completo</label>
+                                    <input type="text" id="clientName" name="client_name" required
+                                        placeholder="Ej. Don Alberto Valenzuela">
+                                </div>
+                                <div class="form-group">
+                                    <label for="clientEmail">Correo Electrónico</label>
+                                    <input type="email" id="clientEmail" name="client_email" required
+                                        placeholder="Ej. alberto@inversiones.com">
+                                </div>
+                                <div class="form-group">
+                                    <label for="clientPhone">Teléfono / WhatsApp</label>
+                                    <input type="tel" id="clientPhone" name="client_phone" required
+                                        placeholder="Ej. +34 600 000 000">
+                                </div>
+                                <div class="form-group">
+                                    <label for="projectLocation">Ubicación del Proyecto</label>
+                                    <input type="text" id="projectLocation" name="project_location" required
+                                        placeholder="Ej. Finca Sotogrande / Residencia Urbana Madrid">
+                                </div>
+                                <div class="form-group full-width">
+                                    <label for="projectDesc">Cuéntenos un poco más acerca de su visión y los detalles
+                                        específicos</label>
+                                    <textarea id="projectDesc" name="project_desc" rows="4"
+                                        placeholder="Describa la escala de la obra, el espacio donde se ubicará y cualquier requerimiento estético que visualice..."></textarea>
+                                </div>
+                            </div>
+
+                            <div class="step-buttons">
+                                <button type="button" class="btn btn-secondary prev-step">Atrás</button>
+                                <button type="submit" class="btn btn-primary" id="btnSubmitForm">Postular Mi
+                                    Proyecto</button>
+                            </div>
+                        </div>
+
+                        <!-- Pantalla de Descarte Amigable (Bajo Presupuesto) -->
+                        <div class="disqualification-screen" id="disqualificationScreen">
+                            <span class="warning-icon">🪵</span>
+                            <h3>Compromiso Inquebrantable de Calidad</h3>
+                            <p>
+                                Agradecemos profundamente su interés en nuestro taller. En **Moyano**, tenemos la firme
+                                convicción de que las obras en madera son legados para toda la vida. Por ello, **no
+                                trabajamos con maderas comerciales de baja calidad ni tratamientos químicos industriales
+                                de corta duración**.
+                            </p>
+                            <p>
+                                Debido a que su prioridad actual es un desarrollo de bajo coste y alta velocidad,
+                                lamentamos informarle que no somos el proveedor adecuado para su proyecto. Le deseamos
+                                el mayor de los éxitos en su búsqueda comercial.
+                            </p>
+                            <button type="button" class="btn btn-secondary restart-form">Reconfigurar Proyecto</button>
+                        </div>
+
+                        <!-- Pantalla de Éxito -->
+                        <div class="success-screen" id="successScreen">
+                            <span class="success-icon">⚜️</span>
+                            <h3>Su Postulación ha sido Registrada</h3>
+                            <p>
+                                Hemos recibido los detalles de su proyecto de inversión. Un maestro artesano de nuestro
+                                equipo técnico analizará la propuesta estructural, el tipo de veta idónea y la
+                                viabilidad del calendario del taller.
+                            </p>
+                            <p>
+                                Nos pondremos en contacto con usted en un plazo no mayor a 48 horas para agendar una
+                                consultoría técnica personalizada o una visita en campo.
+                            </p>
+                            <button type="button" class="btn btn-secondary restart-form">Nueva Postulación</button>
+                        </div>
+
+                    </form>
+                </div>
+            </div>
+        </section>
+
+    </main>
+
+    <!-- Lightbox de Detalle de Portafolio (Premium Modal) -->
+    <div id="portfolioLightbox" class="lightbox">
+        <span class="lightbox-close" id="lightboxClose">&times;</span>
+        <div class="lightbox-content">
+            <div class="lightbox-left">
+                <img id="lightboxImg" src="" alt="Detalle del proyecto">
+            </div>
+            <div class="lightbox-right">
+                <span class="lightbox-tag" id="lightboxCategory">Mobiliario</span>
+                <h2 class="lightbox-title" id="lightboxTitle">Mesa Comedor</h2>
+
+                <div class="lightbox-details-grid">
+                    <div class="detail-item">
+                        <span class="detail-label">Madera Empleada</span>
+                        <span class="detail-value" id="lightboxWood">Roble Macizo</span>
+                    </div>
+                    <div class="detail-item">
+                        <span class="detail-label">Tratamiento & Acabado</span>
+                        <span class="detail-value" id="lightboxFinish">Aceites Naturales</span>
+                    </div>
+                    <div class="detail-item">
+                        <span class="detail-label">Método Constructivo</span>
+                        <span class="detail-value" id="lightboxTools">Hand & Power Tools</span>
+                    </div>
+                    <div class="detail-item">
+                        <span class="detail-label">Garantía del Taller</span>
+                        <span class="detail-value text-gold" id="lightboxWarranty">Garantía de por Vida</span>
+                    </div>
+                </div>
+
+                <div class="lightbox-desc">
+                    <p>Cada una de nuestras piezas es fabricada de manera individual en nuestro taller. Empleamos un
+                        riguroso proceso de secado natural de la madera para evitar grietas futuras, y uniones mecánicas
+                        calculadas para absorber los movimientos naturales del material vivo, garantizando su
+                        estabilidad por generaciones.</p>
+                </div>
+
+                <a href="#postular" class="btn btn-primary btn-lightbox-cta" id="lightboxCta">Consultar sobre esta
+                    Obra</a>
+            </div>
+        </div>
+    </div>
+
+    <!-- Footer Premium -->
+    <footer class="footer-premium">
+        <div class="container footer-grid">
+            <div class="footer-brand">
+                <span class="logo-brand">MOYANO</span>
+                <span class="logo-sub">TALLER DE MADERA</span>
+                <p class="footer-tagline">Creando legados arquitectónicos y artísticos de madera noble para toda la
+                    vida.</p>
+            </div>
+            <div class="footer-links-col">
+                <h4>Secciones</h4>
+                <ul>
+                    <li><a href="#inicio">Inicio</a></li>
+                    <li><a href="#filosofia">El Valor</a></li>
+                    <li><a href="#servicios">Servicios</a></li>
+                    <li><a href="#taller">El Taller</a></li>
+                    <li><a href="#portafolio">Portafolio</a></li>
+                </ul>
+            </div>
+            <div class="footer-links-col">
+                <h4>Filosofía</h4>
+                <ul>
+                    <li><a href="#filosofia">Construcción Biodinámica</a></li>
+                    <li><a href="#filosofia">Madera 100% Ecológica</a></li>
+                    <li><a href="#taller">Nuestra Garantía</a></li>
+                </ul>
+            </div>
+            <div class="footer-contact-col">
+                <h4>Contacto de Autor</h4>
+                <p>📍 Taller Principal y Oficina de Diseño</p>
+                <p>📞 +34 600 000 000 (Solo inversionistas y clientes calificados)</p>
+                <p>📧 proyectos@moyanomadera.com</p>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2026 Moyano Taller de Madera. Todos los derechos reservados. Diseñado bajo estándares de lujo
+                sostenible y biodinámica.</p>
+        </div>
+    </footer>
+
+    <!-- Script de interactividad -->
+    <script src="app.js"></script>
+</body>
+
+</html>
